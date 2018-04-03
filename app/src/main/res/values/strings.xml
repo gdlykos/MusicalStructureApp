@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="music_library">Music Library</string>
+    <string name="now_playing_explanasion">This activity will show and play the current
+    song. There are also buttons for moving to the next and previous songs, one
+    for a shuffled play and one that repeats the song. The seek bar will shows the time position
+</string>
+    <string name="music_library_explanasion">This activity will display a list of all the
+        songs that are in the phone.</string>
+    <string name="song1Title">Wrong Side Of Heaven</string>
+    <string name="song1Artist">Five Finger Death Punch</string>
+    <string name="song2Title">The Sound Of Silence</string>
+    <string name="song2Artist">Disturbed</string>
+    <string name="song3Title">Hurt</string>
+    <string name="song3Artist">Johnny Cash</string>
+    <string name="song4Title">Thunder</string>
+    <string name="song4Artist">Imagine Dragons</string>
+    <string name="song5Title">Human</string>
+    <string name="song5Artist">Rag\'n\'Bone Man</string>
+    <string name="song6Title">Read All About It</string>
+    <string name="song6Artist">Emeli Sandé</string>
+    <string name="song7Title">Wake Me Up When September Ends</string>
+    <string name="song7Artist">Green Day</string>
+    <string name="song8Title">Feel"</string>
+    <string name="song8Artist">Robbie Williams</string>
+    <string name="song9Title">Wicked Game</string>
+    <string name="song9Artist">Chris Isaak</string>
+    <string name="song10Title">Hallelujah</string>
+    <string name="song10Artist">Pentatonix</string>
+</resources>

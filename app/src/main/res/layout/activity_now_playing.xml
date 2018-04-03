@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructureapp.NowPlaying">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/song2Title"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/song2Artist"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/pexelsconcertphoto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0:00" />
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4:14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                style="@style/ImageButtonStyle"
+                android:background="@drawable/roundcorner"
+                android:src="@drawable/shuffle" />
+
+
+            <ImageButton
+                style="@style/ImageButtonStyle"
+                android:background="@drawable/roundcorner"
+                android:src="@drawable/rewind" />
+
+
+            <ImageButton
+                android:id="@+id/play_button"
+                style="@style/ImageButtonStyle"
+                android:background="@drawable/roundcorner"
+                android:src="@drawable/play" />
+
+            <ImageButton
+                style="@style/ImageButtonStyle"
+                android:background="@drawable/roundcorner"
+                android:src="@drawable/fast_forward" />
+
+            <ImageButton
+                style="@style/ImageButtonStyle"
+                android:background="@drawable/roundcorner"
+                android:src="@drawable/repeat" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/music_library_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:text="@string/music_library"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="@string/now_playing_explanasion" />
+
+    </LinearLayout>
+
+</ScrollView>
